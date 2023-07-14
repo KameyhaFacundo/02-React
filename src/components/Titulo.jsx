@@ -1,7 +1,7 @@
-const Titulo = () => {
+const Titulo = ({ subtitulo }) => {
   return (
     <div>
-      <h1>Hello world! </h1>
+      <h1>Hello {subtitulo}</h1>
     </div>
   );
 };
